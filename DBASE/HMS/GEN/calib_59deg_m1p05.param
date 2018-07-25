@@ -1,0 +1,3 @@
+; HMS calibration files for 59 deg, p = -1.05 GeV, runs 1848-1861
+#include "PARAM/HMS/DC/CALIB/59deg_m1p05/hdc_calib_10105.param"
+#include "PARAM/HMS/DC/CALIB/59deg_m1p05/hdc_tzero_per_wire_10105.param"
