@@ -71,9 +71,11 @@ class DC_calib
 
   TString cal_etot_leaf;   
   TString cer_npe_leaf;
+  TString delta_leaf;
  
   Double_t cal_etot;   //calorimeter normalized energy
   Double_t cer_npe;       //cerenkon photoelectron Sum
+  Double_t delta;              //delta 
 
   //Boolean for checking if TBranch exists
   Bool_t status_cal;
@@ -84,7 +86,8 @@ class DC_calib
   Bool_t cal_elec;     //calorimeter normalized energy cut
   Bool_t cer_elec;     //cerenkov cut
   Bool_t good_event;    //single hit / event / plane o clean background
- 
+  Bool_t del;
+
   Int_t cnts_ch1;
   Int_t cnts_ch2;
   Int_t ngood_evts;
