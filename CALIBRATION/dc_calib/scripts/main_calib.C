@@ -11,7 +11,7 @@ int main_calib(Int_t run_NUM, Int_t even_NUM)
   //prevent root from displaying graphs while executing
   gROOT->SetBatch(1);
 
-   TString filename = "/w/hallc-scifs17exp/xem2/abishek/hallc-replay-f2xem/ROOTfiles/uncal_rootfiles/shms_replay_production_all_";
+   TString filename = "/w/hallc-scifs17exp/xem2/abishek/hallc-replay-f2xem/ROOTfiles/shms_replay_production_all_";
 
   //TString filename = "/volatile/hallc/xem2/abels/ROOTfiles/hms_replay_production_all_";
   filename += run_NUM;
